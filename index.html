@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xinghao Wang — Personal Website</title>
+  <meta name="description" content="Personal website of Xinghao Wang, a Big Data & AI undergraduate at Xi'an Jiaotong-Liverpool University (XJTLU). AI, embodied intelligence, and knowledge engineering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAV ===== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">XW<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="hero__glow hero__glow--1"></div>
+    <div class="hero__glow hero__glow--2"></div>
+    <div class="hero__inner reveal">
+      <p class="hero__eyebrow">Hello, I'm</p>
+      <h1 class="hero__name">Xinghao <span>Wang</span></h1>
+      <p class="hero__role">Big Data &amp; Artificial Intelligence Undergraduate</p>
+      <p class="hero__sub">Xi'an Jiaotong-Liverpool University · School of AI and Advanced Computing (AIAC)</p>
+      <p class="hero__desc">
+        I build intelligent systems at the intersection of AI, embodied intelligence, and
+        knowledge engineering — from enterprise knowledge graphs to edge-deployed computer vision.
+      </p>
+      <div class="hero__cta">
+        <a href="#experience" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+      </div>
+      <div class="hero__social">
+        <a href="https://github.com/Lananan321" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+        </a>
+        <a href="mailto:XINGHAO.WANG24@student.xjtlu.edu.cn" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm10 7.1 8.5-5.1H3.5L12 11.1zM3 7.4V18h18V7.4l-8.5 5.1a1 1 0 0 1-1 0L3 7.4z"/></svg>
+        </a>
+        <a href="tel:15276616655" aria-label="Phone">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/></svg>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </header>
+
+  <main>
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title reveal">About <span>Me</span></h2>
+        <div class="about reveal">
+          <p>
+            Hi! I'm <strong>Xinghao Wang</strong>, a third-year undergraduate majoring in
+            <strong>Big Data</strong> at Xi'an Jiaotong-Liverpool University (XJTLU) in Suzhou, China.
+            My interests sit at the crossroads of <strong>artificial intelligence</strong>,
+            <strong>embodied intelligence</strong>, and <strong>knowledge engineering</strong>.
+          </p>
+          <p>
+            Through internships across telecom, environmental tech, and industrial software, I've
+            built enterprise knowledge bases, deployed computer-vision models on edge devices, and
+            explored world models. I enjoy turning messy real-world data into systems that can
+            perceive, reason, and act.
+          </p>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__num">3</span>
+              <span class="stat__label">Internships</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">2×</span>
+              <span class="stat__label">Full Scholarship</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">M</span>
+              <span class="stat__label">MCM Meritorious</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <h2 class="section__title reveal">Education &amp; <span>Awards</span></h2>
+        <div class="card reveal">
+          <div class="card__head">
+            <div>
+              <h3 class="card__title">Xi'an Jiaotong-Liverpool University (XJTLU)</h3>
+              <p class="card__meta">BEng, Data Science &amp; Big Data Technology</p>
+            </div>
+            <span class="badge">Sep 2024 – Jun 2028 (Expected)</span>
+          </div>
+          <p class="card__place">School of AI and Advanced Computing (AIAC), Taicang Campus · Suzhou, China</p>
+          <ul class="card__list">
+            <li><strong>Full Scholarship</strong> — University Academic Excellence Award (Year 1 &amp; Year 2)</li>
+            <li><strong>MCM/ICM 2026</strong> — Meritorious Winner (American College Student Mathematical Contest in Modeling)</li>
+            <li><strong>National Mathematical Modeling Contest 2025</strong> — Provincial First Prize</li>
+          </ul>
+          <p class="card__subhead">Core Courses</p>
+          <div class="tags">
+            <span>Data Structures &amp; Algorithms</span>
+            <span>Numerical Computing Methods</span>
+            <span>Database Fundamentals</span>
+            <span>Mathematical Foundations of AI &amp; Data Science</span>
+            <span>AI &amp; Big Data Industry Technologies</span>
+            <span>Computer Architecture &amp; Operating Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title reveal">Work <span>Experience</span></h2>
+        <div class="timeline">
+          <article class="card reveal">
+            <div class="card__head">
+              <div>
+                <h3 class="card__title">Shanghai Baosight Software Co., Ltd.</h3>
+                <p class="card__meta">AI Knowledge Base · Ontology &amp; KG</p>
+              </div>
+              <span class="badge">Aug 2026 – Sep 2026 · Shanghai</span>
+            </div>
+            <ul class="card__list">
+              <li>Joined the company's AI-driven digital transformation; responsible for <strong>ontology modeling</strong> and building the knowledge foundation.</li>
+              <li>Built an enterprise knowledge base for the procurement domain — an <strong>ontology + skill + database trinity</strong> that tightly integrates the three and eliminates most hallucination issues.</li>
+              <li>Explored <strong>self-testing, self-checking, and self-correcting</strong> capabilities and preliminarily implemented the technical framework.</li>
+              <li>Abandoned traditional RAG retrieval and proposed a <strong>Knowledge Graph (KG)</strong> enabling logical reasoning and self-reasoning.</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__head">
+              <div>
+                <h3 class="card__title">Suzhou Dehua Eco-Environment Technology Co., Ltd.</h3>
+                <p class="card__meta">Computer Vision · Edge Deployment</p>
+              </div>
+              <span class="badge">Jun 2026 – Jul 2026 · Suzhou</span>
+            </div>
+            <ul class="card__list">
+              <li>Built a bird information database for Xiaoxiawan; crawled image data from iNaturalist and completed annotation.</li>
+              <li>Stitched UAV images into <strong>720° panoramic views</strong>; trained image-recognition models for special-value monitoring.</li>
+              <li>Lightweight <strong>YOLOv8</strong> architecture for wetland/bird detection; optimized detection from UAV aerial viewpoints for small/dense targets.</li>
+              <li>Collaborated with hardware team to deploy &amp; accelerate YOLO on edge devices (<strong>Jetson / Raspberry Pi</strong>).</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__head">
+              <div>
+                <h3 class="card__title">AsiaInfo China Technology Co., Ltd.</h3>
+                <p class="card__meta">Data Processing · Embodied AI</p>
+              </div>
+              <span class="badge">Jan 2026 – Feb 2026 · Suzhou</span>
+            </div>
+            <ul class="card__list">
+              <li>Data processing: cleaning, feature extraction, and preliminary model validation; maintained experiment logs and data documentation.</li>
+              <li>Learned <strong>visual-level 3D modeling</strong> and secondary development of embodied-intelligence simulation models.</li>
+              <li>Integrated core algorithms with large-model technology outputs; gained a preliminary understanding of <strong>world models</strong>.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title reveal">Technical <span>Skills</span></h2>
+        <div class="skills-grid">
+          <div class="card reveal">
+            <h3 class="card__title">Languages &amp; Tools</h3>
+            <div class="tags">
+              <span>Python</span><span>SQL</span><span>C / C++</span><span>MATLAB</span><span>HTML / CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <h3 class="card__title">AI / ML</h3>
+            <div class="tags">
+              <span>Machine Learning</span><span>Computer Vision</span><span>YOLOv8</span><span>Knowledge Graph</span><span>Ontology Modeling</span><span>World Models</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <h3 class="card__title">Domains &amp; Platforms</h3>
+            <div class="tags">
+              <span>Data Processing</span><span>Edge Deployment (Jetson / Raspberry Pi)</span><span>UAV Imagery</span><span>Embodied AI</span><span>Enterprise Knowledge Base</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title reveal">Get In <span>Touch</span></h2>
+        <div class="contact reveal">
+          <p class="contact__lead">Feel free to reach out for internships, research collaboration, or just to say hi.</p>
+          <div class="contact__grid">
+            <a class="contact__item" href="mailto:XINGHAO.WANG24@student.xjtlu.edu.cn">
+              <span class="contact__label">Email</span>
+              <span class="contact__value">XINGHAO.WANG24@student.xjtlu.edu.cn</span>
+            </a>
+            <a class="contact__item" href="tel:15276616655">
+              <span class="contact__label">Phone</span>
+              <span class="contact__value">15276616655</span>
+            </a>
+            <div class="contact__item">
+              <span class="contact__label">WeChat</span>
+              <span class="contact__value">w15276616655</span>
+            </div>
+            <a class="contact__item" href="https://github.com/Lananan321" target="_blank" rel="noopener">
+              <span class="contact__label">GitHub</span>
+              <span class="contact__value">github.com/Lananan321</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Xinghao Wang</span>
+      <span class="footer__note">Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
