@@ -20,7 +20,7 @@
         else if (lv > 0.38) cell.dataset.lv = "2";
         else if (lv > 0.18) cell.dataset.lv = "1";
         var n = cell.dataset.lv ? cell.dataset.lv * 3 : 0;
-        cell.title = n === 0 ? "休息日：去宝可梦中心恢复体力" : "捕获了 " + n + " 只 bug！";
+        cell.title = n === 0 ? "Rest day: recovered at the Pokemon Center" : "Caught " + n + " bugs!";
         frag.appendChild(cell);
       }
     }
