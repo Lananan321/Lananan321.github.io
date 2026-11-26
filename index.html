@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,30 +9,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin />
   <link href="https://fonts.googleapis.cn/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+<base target="_blank">
 </head>
 <body>
 
-  <!-- ============ 像素风景横幅 ============ -->
+  <!-- ============ Pixel scenery banner ============ -->
   <header class="scene-wrap" id="home">
     <svg class="scene" viewBox="0 0 1200 300" preserveAspectRatio="xMidYMid slice" shape-rendering="crispEdges" aria-hidden="true">
-      <!-- 天空条带 -->
+      <!-- Sky bands -->
       <rect x="0" y="0"   width="1200" height="60"  fill="#6db9f2"/>
       <rect x="0" y="60"  width="1200" height="60"  fill="#7ec4f6"/>
       <rect x="0" y="120" width="1200" height="50"  fill="#93d0f8"/>
       <rect x="0" y="170" width="1200" height="40"  fill="#a8daf9"/>
-      <!-- 太阳 -->
+      <!-- Sun -->
       <g fill="#ffe66d">
         <rect x="1060" y="30" width="40" height="40"/>
         <rect x="1050" y="40" width="60" height="20"/>
         <rect x="1070" y="20" width="20" height="60"/>
       </g>
-      <!-- 云 -->
+      <!-- Clouds -->
       <g fill="#ffffff">
         <rect x="120" y="48" width="90" height="18"/><rect x="140" y="36" width="50" height="14"/>
         <rect x="420" y="80" width="110" height="18"/><rect x="445" y="68" width="60" height="14"/>
         <rect x="820" y="50" width="90" height="18"/><rect x="838" y="38" width="52" height="14"/>
       </g>
-      <!-- 远山（阶梯像素） -->
+      <!-- Distant mountains (stepped pixels) -->
       <g fill="#5e9e8f">
         <rect x="240" y="130" width="320" height="80"/><rect x="280" y="110" width="240" height="20"/>
         <rect x="320" y="90"  width="160" height="20"/><rect x="360" y="70"  width="80"  height="20"/>
@@ -42,10 +43,10 @@
         <rect x="760" y="140" width="260" height="70"/><rect x="800" y="120" width="180" height="20"/>
         <rect x="840" y="100" width="100" height="20"/>
       </g>
-      <!-- 草地 -->
+      <!-- Grass -->
       <rect x="0" y="210" width="1200" height="90" fill="#7fbf4d"/>
       <rect x="0" y="210" width="1200" height="10" fill="#93d15e"/>
-      <!-- 宝可梦中心式房子 -->
+      <!-- Pokemon-Center-style house -->
       <g>
         <rect x="880" y="120" width="180" height="90" fill="#fdf6e3"/>
         <rect x="870" y="96"  width="200" height="26" fill="#e8433f"/>
@@ -54,18 +55,18 @@
         <rect x="954" y="154" width="32" height="52" fill="#7fb2ef"/>
         <rect x="900" y="140" width="30" height="26" fill="#8fd0f5"/>
         <rect x="1010" y="140" width="30" height="26" fill="#8fd0f5"/>
-        <!-- 房顶精灵球标志 -->
+        <!-- Pokeball roof emblem -->
         <circle cx="970" cy="80" r="14" fill="#e8433f"/>
         <rect x="956" y="76" width="28" height="6" fill="#2e2417"/>
         <rect x="964" y="70" width="12" height="6" fill="#ffffff"/>
       </g>
-      <!-- 像素树 x3 -->
+      <!-- Pixel trees x3 -->
       <g>
         <g transform="translate(80,120)"><rect x="0" y="0" width="80" height="90" fill="#2f7a33"/><rect x="12" y="-18" width="56" height="20" fill="#3d9440"/><rect x="28" y="86" width="20" height="40" fill="#7a4a24"/><rect x="16" y="16" width="14" height="14" fill="#4fb054"/></g>
         <g transform="translate(300,140) scale(0.8)"><rect x="0" y="0" width="80" height="90" fill="#2f7a33"/><rect x="12" y="-18" width="56" height="20" fill="#3d9440"/><rect x="28" y="86" width="20" height="40" fill="#7a4a24"/><rect x="16" y="16" width="14" height="14" fill="#4fb054"/></g>
         <g transform="translate(1130,130) scale(0.9)"><rect x="0" y="0" width="80" height="90" fill="#2f7a33"/><rect x="12" y="-18" width="56" height="20" fill="#3d9440"/><rect x="28" y="86" width="20" height="40" fill="#7a4a24"/><rect x="16" y="16" width="14" height="14" fill="#4fb054"/></g>
       </g>
-      <!-- 花与草点 -->
+      <!-- Flowers & grass tufts -->
       <g>
         <rect x="60"  y="250" width="8" height="8" fill="#ff7eb3"/><rect x="60" y="258" width="8" height="6" fill="#3e7c1f"/>
         <rect x="180" y="270" width="8" height="8" fill="#ffe66d"/><rect x="180" y="278" width="8" height="6" fill="#3e7c1f"/>
@@ -75,7 +76,7 @@
         <rect x="560" y="266" width="12" height="6" fill="#5da632"/>
         <rect x="900" y="272" width="12" height="6" fill="#5da632"/>
       </g>
-      <!-- 木牌 -->
+      <!-- Wooden sign -->
       <g>
         <rect x="470" y="120" width="14" height="80" fill="#8a5a2b"/>
         <rect x="716" y="120" width="14" height="80" fill="#8a5a2b"/>
@@ -91,18 +92,18 @@
     <div class="scanlines"></div>
   </header>
 
-  <!-- ============ 像素导航 ============ -->
+  <!-- ============ Pixel nav ============ -->
   <nav class="nav" id="nav">
     <div class="nav__inner">
-      <button class="nav__toggle" id="navToggle" aria-label="菜单">
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav__links" id="navLinks">
-        <li><a href="#journey" class="pxbtn is-active">⚡ 旅程</a></li>
-        <li><a href="#academy" class="pxbtn">🏫 学院</a></li>
-        <li><a href="#pokedex" class="pxbtn">📖 图鉴</a></li>
-        <li><a href="#badges" class="pxbtn">🏅 徽章</a></li>
-        <li><a href="#contact" class="pxbtn">✉️ 联系</a></li>
+        <li><a href="#journey" class="pxbtn is-active">⚡ Journey</a></li>
+        <li><a href="#academy" class="pxbtn">🏫 Academy</a></li>
+        <li><a href="#pokedex" class="pxbtn">📖 Pokédex</a></li>
+        <li><a href="#badges" class="pxbtn">🏅 Badges</a></li>
+        <li><a href="#contact" class="pxbtn">✉️ Contact</a></li>
       </ul>
       <div class="nav__right">
         <span class="nav__stars">⭐ 12.3k</span>
@@ -119,14 +120,14 @@
     </div>
   </nav>
 
-  <!-- ============ 主体三栏 ============ -->
+  <!-- ============ 3-column main ============ -->
   <main class="layout container">
-    <!-- ▍左栏：图鉴导航 -->
+    <!-- ▍Left: Pokédex nav -->
     <aside class="col col--left">
       <section class="panel">
-        <h2 class="panel__title">📷 你的图鉴</h2>
+        <h2 class="panel__title">📷 Your Pokédex</h2>
         <div class="pxsearch">
-          <input type="text" placeholder="搜索技能..." aria-label="搜索" readonly />
+          <input type="text" placeholder="Search skills..." aria-label="Search" readonly />
           <span>🔍</span>
         </div>
         <ul class="repolist">
@@ -136,23 +137,23 @@
           <li><a href="#badges"><i class="pokeball pokeball--gold"></i>badge-collection <b>★</b></a></li>
           <li><a href="#contact"><i class="pokeball pokeball--purple"></i>contact-me <b>★</b></a></li>
         </ul>
-        <a class="pxbtn pxbtn--big" href="https://github.com/Lananan321?tab=repositories" target="_blank" rel="noopener">🐹 查看全部仓库</a>
+        <a class="pxbtn pxbtn--big" href="https://github.com/Lananan321?tab=repositories" target="_blank" rel="noopener">🐹 View all repos</a>
       </section>
 
       <section class="panel panel--contact-mini">
-        <h2 class="panel__title">📡 通讯链接</h2>
+        <h2 class="panel__title">📡 Comms</h2>
         <ul class="minilist">
-          <li><a href="mailto:XINGHAO.WANG24@student.xjtlu.edu.cn">✉️ 邮件</a></li>
+          <li><a href="mailto:XINGHAO.WANG24@student.xjtlu.edu.cn">✉️ Email</a></li>
           <li><a href="https://github.com/Lananan321" target="_blank" rel="noopener">🐙 GitHub</a></li>
         </ul>
       </section>
     </aside>
 
-    <!-- ▍中栏：主内容 -->
+    <!-- ▍Center: main content -->
     <div class="col col--main">
-      <!-- 旅程 / 实习 -->
+      <!-- Journey / Internships -->
       <section class="panel" id="journey">
-        <h2 class="panel__title panel__title--lg">🌍 冒险旅程 · 实习记录</h2>
+        <h2 class="panel__title panel__title--lg">🌍 Adventure Log · Internships</h2>
 
         <article class="repo reveal">
           <div class="repo__head">
@@ -161,13 +162,13 @@
               <rect x="3" y="6" width="4" height="4" fill="#ffffff"/><rect x="9" y="6" width="4" height="2" fill="#ffffff"/>
               <rect x="1" y="12" width="14" height="2" fill="#6c46a8"/>
             </svg>
-            <h3>baosight-kg <span class="tag tag--public">公开</span></h3>
-            <a class="pxbtn pxbtn--sm repo__code" href="https://github.com/Lananan321" target="_blank" rel="noopener">代码 ▾</a>
+            <h3>baosight-kg <span class="tag tag--public">Public</span></h3>
+            <a class="pxbtn pxbtn--sm repo__code" href="https://github.com/Lananan321" target="_blank" rel="noopener">Code ▾</a>
           </div>
-          <p class="repo__desc">上海宝信软件 · AI 知识库工程 —— 企业采购域本体建模，构建「本体+技能+数据库」三位一体知识底座；放弃传统 RAG，改用知识图谱实现逻辑自推理；探索自检/自测/自纠框架。</p>
+          <p class="repo__desc">Shanghai Baosight Software · AI Knowledge Engineering — ontology modeling for the enterprise procurement domain; built an "ontology + skill + database" trinity knowledge foundation that eliminated most hallucination issues; replaced traditional RAG with a knowledge graph for logical self-reasoning; explored a self-test / self-check / self-correct framework.</p>
           <div class="repo__meta">
             <span class="lang"><i style="background:#3572A5"></i>Python</span>
-            <span>⭐ 3</span><span>⎇ 2</span><span>🕒 更新于 2026 年 9 月</span>
+            <span>⭐ 3</span><span>⎇ 2</span><span>🕒 Updated Sep 2026</span>
           </div>
         </article>
 
@@ -178,13 +179,13 @@
               <rect x="5" y="8" width="2" height="3" fill="#ffe66d"/><rect x="9" y="8" width="2" height="3" fill="#ffe66d"/>
               <rect x="1" y="6" width="3" height="2" fill="#2e2417"/><rect x="12" y="6" width="3" height="2" fill="#2e2417"/>
             </svg>
-            <h3>yolov8-edge <span class="tag tag--public">公开</span></h3>
-            <a class="pxbtn pxbtn--sm repo__code" href="https://github.com/Lananan321" target="_blank" rel="noopener">代码 ▾</a>
+            <h3>yolov8-edge <span class="tag tag--public">Public</span></h3>
+            <a class="pxbtn pxbtn--sm repo__code" href="https://github.com/Lananan321" target="_blank" rel="noopener">Code ▾</a>
           </div>
-          <p class="repo__desc">苏州德华生态环境 · 计算机视觉 —— 为小溪湾建立鸟类信息库（iNaturalist 爬取+标注）；无人机图像拼接 720° 全景；YOLOv8 轻量化改进、小目标/密集目标优化，部署至 Jetson / 树莓派边缘端。</p>
+          <p class="repo__desc">Suzhou Dehua Eco-Environment · Computer Vision — built a bird information database for Xiaoxiwan (crawling iNaturalist + image annotation); stitched UAV images into 720° panoramas; lightweight YOLOv8 architecture improvements for small/dense object detection; deployed and accelerated on edge devices (Jetson / Raspberry Pi).</p>
           <div class="repo__meta">
             <span class="lang"><i style="background:#3572A5"></i>Python</span>
-            <span>⭐ 4</span><span>⎇ 3</span><span>🕒 更新于 2026 年 7 月</span>
+            <span>⭐ 4</span><span>⎇ 3</span><span>🕒 Updated Jul 2026</span>
           </div>
         </article>
 
@@ -195,55 +196,55 @@
               <rect x="4" y="6" width="3" height="3" fill="#2e2417"/><rect x="9" y="6" width="3" height="3" fill="#2e2417"/>
               <rect x="5" y="12" width="6" height="2" fill="#5b8dd6"/>
             </svg>
-            <h3>world-models-lab <span class="tag tag--public">公开</span></h3>
-            <a class="pxbtn pxbtn--sm repo__code" href="https://github.com/Lananan321" target="_blank" rel="noopener">代码 ▾</a>
+            <h3>world-models-lab <span class="tag tag--public">Public</span></h3>
+            <a class="pxbtn pxbtn--sm repo__code" href="https://github.com/Lananan321" target="_blank" rel="noopener">Code ▾</a>
           </div>
-          <p class="repo__desc">亚信科技 · 数据与具身智能 —— 数据清洗、特征提取与初步模型验证；视觉级 3D 建模与具身智能仿真模型二次开发，接入大模型输出多种动作组合；初探世界模型。</p>
+          <p class="repo__desc">AsiaInfo China Technology · Data & Embodied AI — data cleaning, feature extraction and preliminary model validation; visual-level 3D modeling and secondary development of embodied-intelligence simulation models with large-model-driven action combinations; first steps into world models.</p>
           <div class="repo__meta">
             <span class="lang"><i style="background:#e16737"></i>MATLAB</span>
             <span class="lang"><i style="background:#f34b7d"></i>C++</span>
-            <span>⭐ 2</span><span>⎇ 1</span><span>🕒 更新于 2026 年 2 月</span>
+            <span>⭐ 2</span><span>⎇ 1</span><span>🕒 Updated Feb 2026</span>
           </div>
         </article>
 
         <div class="pager"><button class="pxbtn pxbtn--sm" type="button">◀</button><span>1 / 3</span><button class="pxbtn pxbtn--sm" type="button">▶</button></div>
       </section>
 
-      <!-- 学院 -->
+      <!-- Academy -->
       <section class="panel" id="academy">
-        <h2 class="panel__title panel__title--lg">🏫 训练家学院 · XJTLU</h2>
+        <h2 class="panel__title panel__title--lg">🏫 Trainer Academy · XJTLU</h2>
         <div class="academy reveal">
-          <p><strong>西安利物浦大学 Xi'an Jiaotong-Liverpool University</strong></p>
-          <p class="muted">AI 与先进计算学院（AIAC，太仓）· 大数据专业 BEng · 2024.9 – 2028.6</p>
-          <p class="muted">📖 核心课程：</p>
+          <p><strong>Xi'an Jiaotong-Liverpool University</strong></p>
+          <p class="muted">School of AI and Advanced Computing (AIAC, Taicang) · BEng Big Data · 2024.9 – 2028.6</p>
+          <p class="muted">📖 Core Courses:</p>
           <div class="tags">
-            <span>数据结构与算法</span><span>数值计算方法</span><span>数据库基础</span>
-            <span>AI 与数据科学的数学基础</span><span>AI 与大数据产业技术</span><span>计算机体系结构与操作系统</span>
+            <span>Data Structures & Algorithms</span><span>Numerical Computing Methods</span><span>Database Fundamentals</span>
+            <span>Math Foundations of AI & Data Science</span><span>AI & Big Data Industry Technologies</span><span>Computer Architecture & Operating Systems</span>
           </div>
         </div>
       </section>
 
-      <!-- 技能图鉴 -->
+      <!-- Skill Pokédex -->
       <section class="panel" id="pokedex">
-        <h2 class="panel__title panel__title--lg">📖 技能图鉴</h2>
+        <h2 class="panel__title panel__title--lg">📖 Skill Pokédex</h2>
         <div class="dex-grid reveal">
           <div class="dex">
-            <h4>⚔️ 语言与工具</h4>
+            <h4>⚔️ Languages & Tools</h4>
             <div class="tags"><span>Python</span><span>SQL</span><span>C/C++</span><span>MATLAB</span><span>HTML/CSS</span><span>JavaScript</span></div>
           </div>
           <div class="dex">
-            <h4>🔥 AI / 机器学习</h4>
-            <div class="tags"><span>机器学习</span><span>计算机视觉</span><span>YOLOv8</span><span>知识图谱</span><span>本体建模</span><span>世界模型</span></div>
+            <h4>🔥 AI / Machine Learning</h4>
+            <div class="tags"><span>Machine Learning</span><span>Computer Vision</span><span>YOLOv8</span><span>Knowledge Graphs</span><span>Ontology Modeling</span><span>World Models</span></div>
           </div>
           <div class="dex">
-            <h4>🗺️ 领域与平台</h4>
-            <div class="tags"><span>数据处理</span><span>边缘部署 Jetson/树莓派</span><span>无人机影像</span><span>具身智能</span><span>企业知识库</span></div>
+            <h4>🗺️ Domains & Platforms</h4>
+            <div class="tags"><span>Data Processing</span><span>Edge Deployment (Jetson/Pi)</span><span>UAV Imagery</span><span>Embodied AI</span><span>Enterprise Knowledge Bases</span></div>
           </div>
         </div>
       </section>
     </div>
 
-    <!-- ▍右栏：训练家档案 -->
+    <!-- ▍Right: Trainer card -->
     <aside class="col col--right">
       <section class="panel panel--trainer reveal">
         <div class="trainer__head">
@@ -260,58 +261,58 @@
           </span>
           <div>
             <h2 class="trainer__name">Lananan321 <span class="trainer__sex">♂</span></h2>
-            <p class="trainer__role">AI &amp; 大数据训练家</p>
+            <p class="trainer__role">AI &amp; Big Data Trainer</p>
           </div>
         </div>
         <ul class="trainer__stats">
-          <li>🧭 Xinghao Wang · XJTLU · 苏州</li>
-          <li>🐙 3 段实习经历</li>
-          <li>👥 2 次全额奖学金</li>
-          <li>📦 建模竞赛双子星 🏅</li>
+          <li>🧭 Xinghao Wang · XJTLU · Suzhou</li>
+          <li>🐙 3 Internships</li>
+          <li>👥 2× Full Scholarship</li>
+          <li>📦 Math Modeling Double 🏅</li>
         </ul>
       </section>
 
       <section class="panel" id="badges">
-        <h2 class="panel__title">🏅 徽章墙</h2>
+        <h2 class="panel__title">🏅 Badge Case</h2>
         <div class="badges">
           <div class="badge-item" title="Year 1 University Academic Excellence Award">
             <svg viewBox="0 0 20 24" shape-rendering="crispEdges"><rect x="6" y="0" width="3" height="8" fill="#e8433f"/><rect x="11" y="0" width="3" height="8" fill="#3a6fd8"/><circle cx="10" cy="15" r="7" fill="#f7c948"/><circle cx="10" cy="15" r="4" fill="#ffe66d"/><rect x="9" y="10" width="2" height="2" fill="#fff6cf"/></svg>
-            <span>全奖 Y1</span>
+            <span>Full Sch. Y1</span>
           </div>
           <div class="badge-item" title="Year 2 University Academic Excellence Award">
             <svg viewBox="0 0 20 24" shape-rendering="crispEdges"><rect x="6" y="0" width="3" height="8" fill="#e8433f"/><rect x="11" y="0" width="3" height="8" fill="#3a6fd8"/><circle cx="10" cy="15" r="7" fill="#f7c948"/><circle cx="10" cy="15" r="4" fill="#ffe66d"/><rect x="9" y="10" width="2" height="2" fill="#fff6cf"/></svg>
-            <span>全奖 Y2</span>
+            <span>Full Sch. Y2</span>
           </div>
           <div class="badge-item" title="MCM/ICM 2026 Meritorious Winner">
             <svg viewBox="0 0 20 24" shape-rendering="crispEdges"><rect x="6" y="0" width="3" height="8" fill="#3e7c1f"/><rect x="11" y="0" width="3" height="8" fill="#3e7c1f"/><circle cx="10" cy="15" r="7" fill="#c0c8d8"/><circle cx="10" cy="15" r="4" fill="#e9eef7"/><rect x="9" y="10" width="2" height="2" fill="#ffffff"/></svg>
-            <span>MCM M 奖</span>
+            <span>MCM M</span>
           </div>
-          <div class="badge-item" title="全国大学生数学建模竞赛 省一等奖">
+          <div class="badge-item" title="National College Student Mathematical Modeling Contest — Provincial First Prize">
             <svg viewBox="0 0 20 24" shape-rendering="crispEdges"><rect x="6" y="0" width="3" height="8" fill="#e8433f"/><rect x="11" y="0" width="3" height="8" fill="#e8433f"/><circle cx="10" cy="15" r="7" fill="#e8a33f"/><circle cx="10" cy="15" r="4" fill="#ffcf7d"/><rect x="9" y="10" width="2" height="2" fill="#fff0cf"/></svg>
-            <span>省一等奖</span>
+            <span>Prov. 1st</span>
           </div>
         </div>
       </section>
 
       <section class="panel">
-        <h2 class="panel__title">🌱 捕获记录</h2>
-        <div class="graph" id="contribGraph" aria-label="像素贡献图"></div>
-        <div class="graph__months"><span>4月</span><span>5月</span><span>6月</span><span>7月</span></div>
+        <h2 class="panel__title">🌱 Catch Log</h2>
+        <div class="graph" id="contribGraph" aria-label="Pixel contribution graph"></div>
+        <div class="graph__months"><span>Apr</span><span>May</span><span>Jun</span><span>Jul</span></div>
       </section>
 
       <section class="panel">
-        <h2 class="panel__title">⚡ 最近动态</h2>
+        <h2 class="panel__title">⚡ Recent Activity</h2>
         <ul class="feed">
-          <li><i class="pokeball pokeball--purple"></i><span>推送了 <b>baosight-kg</b></span><time>9月</time></li>
-          <li><i class="pokeball pokeball--green"></i><span>合并了 <b>yolov8-edge</b> 的 3 个 PR</span><time>7月</time></li>
-          <li><i class="pokeball pokeball--blue"></i><span>关闭了 2 个议题</span><time>2月</time></li>
-          <li><i class="pokeball pokeball--red"></i><span>开始新的冒险！</span><time>1月</time></li>
+          <li><i class="pokeball pokeball--purple"></i><span>Pushed to <b>baosight-kg</b></span><time>Sep</time></li>
+          <li><i class="pokeball pokeball--green"></i><span>Merged 3 PRs in <b>yolov8-edge</b></span><time>Jul</time></li>
+          <li><i class="pokeball pokeball--blue"></i><span>Closed 2 issues</span><time>Feb</time></li>
+          <li><i class="pokeball pokeball--red"></i><span>Started a new adventure!</span><time>Jan</time></li>
         </ul>
       </section>
     </aside>
   </main>
 
-  <!-- ============ 对话气泡 + 页脚 ============ -->
+  <!-- ============ Speech bubble + footer ============ -->
   <footer class="footer" id="contact">
     <div class="container footer__inner">
       <svg class="squirtle" viewBox="0 0 22 22" shape-rendering="crispEdges" aria-hidden="true">
@@ -325,7 +326,7 @@
         <rect x="7" y="17" width="3" height="3" fill="#7fc8e8"/><rect x="12" y="17" width="3" height="3" fill="#7fc8e8"/>
       </svg>
       <div class="bubble">
-        <p>一起探索 AI 的世界，用代码收服无限可能！</p>
+        <p>Let's explore the world of AI — and catch infinite possibilities with code!</p>
         <p class="bubble__links">
           <a href="mailto:XINGHAO.WANG24@student.xjtlu.edu.cn">✉️ XINGHAO.WANG24@student.xjtlu.edu.cn</a> ·
           <a href="tel:15276616655">📱 15276616655</a> ·
@@ -336,7 +337,7 @@
     </div>
     <div class="container footer__bar">
       <span>© <span id="year"></span> Xinghao Wang</span>
-      <span>Powered by GitHub Pages · 像素风 Trainer Profile</span>
+      <span>Powered by GitHub Pages · Pixel Trainer Profile</span>
     </div>
   </footer>
 
